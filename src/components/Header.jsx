@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./Header.css";
 import Modal from './Signupmodal.jsx';
-import "./signup.css";
+import "./style.css";
 
 class Header extends Component {
     constructor() {
@@ -21,28 +21,6 @@ class Header extends Component {
     hideModal = () => {
         this.setState({ show: false });
     };
-
-    state = {
-        fname: "",
-        lname: "",
-        email: "",
-        password: ""
-    }
-
-
-    onChangeHandler = (e) => {
-        e.preventDefault();
-        let id = e.target.id;
-        let value = e.target.value;
-        this.setState({
-            ...this.state,
-            [id]: value
-        })
-    }
-
-    onSignUp = () => {
-        this.props.signup(this.state)
-    }
 
     render() {
         return (
@@ -101,21 +79,21 @@ class Header extends Component {
                                     <div className="signup-form">
                                         <div className="signup-form-Name-f">
 
-                                            <input type="text" id="fname" value={this.state.fname} onChange={(e) => { this.onChangeHandler(e) }} placeholder="First Name" />
+                                            <input type="text" id="fname"  placeholder="First Name" />
                                         </div>
                                         <div className="signup-form-Name">
 
-                                            <input type="text" id="lname" value={this.state.lname} onChange={(e) => { this.onChangeHandler(e) }} placeholder="Last Name" />
+                                            <input type="text" id="lname"  placeholder="Last Name" />
                                         </div>
                                     </div>
                                     <div className="input-extra">
                                         <div className="signup-form-extra">
 
-                                            <input type="text" id="email" value={this.state.email} onChange={(e) => { this.onChangeHandler(e) }} placeholder="E-mail" />
+                                            <input type="text" id="email"  placeholder="E-mail" />
                                         </div>
                                         <div className="signup-form-extra">
 
-                                            <input type="text" id="password" value={this.state.password} onChange={(e) => { this.onChangeHandler(e) }} placeholder="Password" />
+                                            <input type="text" id="password"  placeholder="Password" />
                                         </div>
                                     </div>
                                     <div className="input-group full">
