@@ -6,3 +6,5 @@ I haven't done the backend auth work because that work is very lengthy and requi
 
 https://github.com/DevGarg262/Auth/blob/main/authController.js
 
+(https://i.ibb.co/Pgf7yVD/Whats-App-Image-2021-03-11-at-23-32-16.jpg)
+
