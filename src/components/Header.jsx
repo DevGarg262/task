@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./Header.css";
-import Modal from './modal.jsx';
+import Modal from './Signupmodal.jsx';
 import "./signup.css";
 
 class Header extends Component {
