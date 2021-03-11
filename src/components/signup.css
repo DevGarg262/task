@@ -1,0 +1,104 @@
+.signUp-page {
+    margin-right: 275px;
+    width: 676px;
+    height: 347px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    align-items: center;
+}
+
+.signup-heading {
+    text-align: center;
+    font: normal normal 600 33px/44px Segoe UI;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.signup-form-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.optional {
+    margin: 0px;
+}
+
+label {
+    font-size: x-large;
+}
+
+.sbtn {
+    margin-top: 13px;
+    margin-left: 155px;
+    width: 336px;
+    height: 48px;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font: normal normal 600 22px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border-color: #7ECB20;
+}
+
+.sbtn:hover {
+    opacity: 0.6
+}
+
+.signup-form-Name {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 0.57;
+    width: 162px;
+    height: 38px;
+}
+
+.signup-form-Name-f {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 0.57;
+    width: 162px;
+    height: 38px;
+    padding-right: 20px;
+    margin-left: 150px;
+}
+
+.signup-form {
+    display: flex;
+}
+
+.signup-form-extra {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 0.57;
+    width: 262px;
+    height: 38px;
+    padding-right: 20px;
+    margin-left: 250px;
+}
+
+.signup-Subheading {
+    text-align: center;
+    font: normal normal normal 22px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #212020;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.close {
+    border: none;
+    opacity: 1;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: end;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-left: 600px;
+}

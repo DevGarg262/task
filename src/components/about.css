@@ -1,0 +1,60 @@
+.heading{
+    text-align: center;
+font: normal normal bold 41px/56px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+
+margin-top: 190px;
+margin-left: 359px;
+width: 648px;
+height: 56px;
+}
+
+.txt{
+    text-align: center;
+font: normal normal normal 28px/38px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 0.8;
+
+
+margin-left: 179px;
+width: 1008px;
+height: 76px;
+}
+
+.btn{
+    background-color: #7ECB20 ;
+border-radius: 27px;
+opacity: 1;
+border-color: #7ECB20;
+
+margin-top: 30px;
+margin-left: 565px;
+width: 236px;
+height: 53px;
+
+}
+
+.btn:hover {background: #9bf52d;}
+
+.btn-text{
+    text-align: center;
+font: normal normal bold 24px/33px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+}
+
+.signUp-page-abc{
+    margin-right: 275px; 
+    width: 676px;
+    height: 347px; 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    opacity: 1; 
+    align-items: center;
+}
