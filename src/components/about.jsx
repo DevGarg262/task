@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./about.css";
-import Modal from './modal.jsx';
+import Modal from './Signupmodal.jsx';
 import "./signup.css";
 
 class About extends Component {
