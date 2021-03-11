@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import ReactDOM from "react-dom";
 
-import "./modal2.css";
+import "./loginmodal.css";
 
 function App() {
-    const [alert, setAlert] = useState("");
     const [displayModal, setDisplayModal] = useState(false);
 
 
@@ -29,11 +28,6 @@ function App() {
                 </div>
 
             </div>
-            <div
-                className={`Overlay ${displayModal ? "Show" : ""}`}
-                onClick={() => setDisplayModal(!displayModal)}
-            />
-            <p className="Alert">{alert}</p>
-        </div>
+            
     );
 }
